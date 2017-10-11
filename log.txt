@@ -1,0 +1,28 @@
+
+2017-10-08/20:10:10 - MAILER STARTED 
+ -> Exception: Connection could not be established with host smtp.gmail.com [ #0]
+MAILER ENDED
+
+2017-10-08/20:10:36 - MAILER STARTED 
+ -> goloubx@mail.ru : Sending done! 
+ -> giv696@yandex.ua : Sending done! 
+MAILER ENDED
+
+2017-10-08/21:10:20 - MAILER STARTED 
+ -> goloubx@mail.ru : Sending done! 
+ -> giv696@yandex.ua : Sending done! 
+MAILER ENDED
+
+2017-10-08/21:10:41 - MAILER STARTED 
+ -> goloubx@mail.ru : Sending done! 
+ -> giv696@yandex.ua : Sending done! 
+MAILER ENDED
+
+2017-10-08/21:10:10 - MAILER STARTED 
+ -> Exception: An exception occured in driver: SQLSTATE[HY000] [2019] Unknown character set
+MAILER ENDED
+
+2017-10-08/21:10:12 - MAILER STARTED 
+ -> goloubx@mail.ru : Sending done! 
+ -> giv696@yandex.ua : Sending done! 
+MAILER ENDED

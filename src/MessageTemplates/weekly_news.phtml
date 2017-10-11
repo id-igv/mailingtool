@@ -1,0 +1,17 @@
+<?php if (isset($sub) && isset($categories) && isset($news)) : ?>
+<?php
+	$subscribedTo = explode(';', $sub->getCategoryList());
+?>
+<div>
+<?php foreach($subscribedTo as $catId) : ?>
+	<div style="margin:15px 0px;">
+		<div style="padding:8px 16px;border-bottom:1px solid black;"><h3><b><?= $news[$catId]['categoryName'] ?></b></h3></div>
+		<ul>
+	<?php foreach($news[$catId]['news'] as $article) : ?>
+			<li style="padding:8px 14px;"><?= $article->getTitle() ?></li>
+	<?php endforeach ?>
+		</ul>
+	</div>
+<?php endforeach ?>
+</div>
+<?php endif ?>
