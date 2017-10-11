@@ -7,7 +7,7 @@ use Symfony\Component\Yaml\Yaml;
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 
-$paramsFile = realpath('C:\xampp\htdocs\news-portal\app\config\parameters.yml');
+$paramsFile = realpath('%here is ur path%');
 $params = [];
 $entityManager = null;
 
